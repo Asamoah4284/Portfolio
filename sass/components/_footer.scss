@@ -1,0 +1,129 @@
+.footer-section{
+    // background:red;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 4.8rem 9.6rem;
+}
+.head{
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    color: #fff;
+}
+.col{
+    // text-align: center;
+}
+.col-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    // text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: grey;
+    cursor: pointer;
+    transition: all .3s;
+}
+.col-text p:hover:not(:last-child){
+    color: rgba(255, 252, 252, 0.61);
+    transform: translateY(-0.2rem);
+}
+.col-last{
+    line-height: 1.6;
+}
+
+
+    .down{
+        padding: 4.8rem 0;
+    }
+    .first-part{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 4rem 2rem;
+        border-right: 1px solid rgba(0,0,0,0.5);
+
+        // border: 1px solid black;
+    }
+    
+    .last__part{
+       
+    }
+    .main-2{
+        max-width: 130rem;
+        margin: 0 auto;
+        padding: 0 5rem 9.6rem 5rem;
+    }
+    .init{
+        border-bottom: 1px solid rgba(0,0,0,0.5);
+        border-top: 1px solid rgba(0,0,0,0.5);
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+    }
+    footer{
+        background-image: linear-gradient( rgba(34, 34, 34, 0.6),rgba(249, 0, 77,0.3)),url(/images/pexels-alex-andrews-821757.jpg) ;
+        background-size: cover;
+        background-position: center;
+
+    }
+    .port{
+        font-size: 3rem;
+        font-weight: 700;
+        color: white;
+    }
+    .port--text{
+        font-size: 1.5rem;
+        color:grey;
+        line-height: 1.8;
+        cursor: pointer;
+    }
+    .middle-part {
+        width: 35%;
+        padding: 4rem 2rem;
+
+    }
+    .link{
+        font-size: 2rem;
+        font-weight: 700;
+        color: white;
+    }
+    .middle-part {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+        font-size: 1.5rem;
+        color: grey;
+        border-right: 1px solid rgba(0,0,0,0.5);
+        cursor: pointer;
+
+        // text-align: center;
+    }
+    .final-part {
+        width: 35%;
+        padding: 4rem 2rem;
+        // border-left: 1px solid black;
+
+    }
+    .contact{
+        font-size: 2rem;
+        font-weight: 700;
+        color: white;
+    }
+
+    .final-part {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        font-size: 1.5rem;
+        color: grey;
+        cursor: pointer;
+        // text-align: center;
+    }
+    .gmail{
+        text-decoration: none;
+        color: grey;
+    }
+    .gmail:hover{
+        background: transparent;
+    }
